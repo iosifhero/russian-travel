@@ -1,0 +1,23 @@
+.photo-grid__item {
+  object-fit: cover;
+  object-position: center;
+  max-width: 284px;
+}
+
+@media (max-width: 1279px) {
+  .photo-grid__item {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .photo-grid__item {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-grid__item {
+    max-width: 288px;
+  }
+}
