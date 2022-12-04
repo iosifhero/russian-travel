@@ -2,7 +2,7 @@
   display: grid;
   margin-bottom: 80px;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px 48px;
+  gap: 48px 40px;
 }
 
 .place:last-child {
@@ -11,7 +11,7 @@
 
 @media (max-width: 1279px) {
   .place {
-    gap: 32px 48px;
+    gap: 48px 32px;
   }
 }
 
